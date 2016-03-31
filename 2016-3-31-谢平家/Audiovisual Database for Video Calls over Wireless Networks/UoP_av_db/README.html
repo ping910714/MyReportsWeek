@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>Ausiovisual Quality Database for Video Calls in Wireless Applications</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2011-06-07 14:19:52 "/>
+<meta name="author" content="Mohammad Goudarzi"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="zenburncode.css" />
+<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+
+<h1 class="title">Ausiovisual Quality Database for Video Calls in Wireless Applications</h1>
+
+
+
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Notes </h2>
+<div class="outline-text-2" id="text-1">
+
+
+
+</div>
+
+<div id="outline-container-1.1" class="outline-3">
+<h3 id="sec-1.1">Subjective Tests </h3>
+<div class="outline-text-3" id="text-1.1">
+
+
+<p>
+Subjective tests were carried out for audio-only, video-only and audiovisual quality over 3 different test sessions. MOS scores are in the scale of 1-9 according to the extended MOS scale in ITU-T P.911 and P.910.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1.2" class="outline-3">
+<h3 id="sec-1.2">Test Material </h3>
+<div class="outline-text-3" id="text-1.2">
+
+
+<p>
+There are totally 6 original audiovisual sequences. The samples are each named with respect to their content as follows:
+</p>
+<ul>
+<li>
+Conversation
+</li>
+<li>
+Jobinterview
+</li>
+<li>
+Gold
+</li>
+<li>
+Newspart
+</li>
+<li>
+Lecture
+</li>
+<li>
+Cbsnews
+
+</li>
+</ul>
+
+<p>Reference audiovisual sequences are located in the folder ./Reference. Test sequences (degraded) are located in folder ./Test. Each folder contains two other folders named 15fps and 8fps, each containing 30 samples.
+There are in total 60 reference and 60 test samples in the .zip package.
+</p>
+<p>
+The file name shows the PER, for example : CbsNews-1-0.01-e.avi has PER of 0.01. e means "error" (the file is a degraded file). -1- before the PER is the Mean burst length and is irrelevant to this dataset (Random loss was used). 
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1.3" class="outline-3">
+<h3 id="sec-1.3">Test parametes </h3>
+<div class="outline-text-3" id="text-1.3">
+
+
+<p>
+Packet loss (PER): (0.01, 0.05, 0.1, 0.15, 0.2)
+</p>
+<p>
+Video Frame Rate (FPS): 8 , 15
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1.4" class="outline-3">
+<h3 id="sec-1.4">Database </h3>
+<div class="outline-text-3" id="text-1.4">
+
+
+<p>
+The results from the audio-only, video-only and audiovisual tests are stored in the file audiovisual<sub>db</sub>.txt included in the .zip package.
+each row shows the parameters and the file named followed by the MOS scores for video-only, audio-only and audiovisual tests.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1.5" class="outline-3">
+<h3 id="sec-1.5">Download </h3>
+<div class="outline-text-3" id="text-1.5">
+
+
+<p>
+The .zip package containing database can be downloaded from the following link:
+</p>
+<p>
+<a href="http://www.tech.plym.ac.uk/spmc/staff/mgoudarzi/Provider/av_database/UoP_av_db.zip">http://www.tech.plym.ac.uk/spmc/staff/mgoudarzi/Provider/av_database/UoP_av_db.zip</a>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1.6" class="outline-3">
+<h3 id="sec-1.6">References </h3>
+<div class="outline-text-3" id="text-1.6">
+
+
+<p>
+Please cite the following paper if the database is used:
+</p>
+<p>
+Goudarzi, M.; Sun, L.; Ifeachor, E. , "Audiovisual Quality Estimation for Video Calls in Wireless Applications," GLOBECOM 2010, 2010 IEEE Global Communications Conference , 6-10 Dec. 2010
+doi: 10.1109/GLOCOM.2010.5683109
+URL: <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5683109&amp;isnumber=5683069">http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5683109&amp;isnumber=5683069</a>
+</p>
+
+</div>
+
+<div id="outline-container-1.6.1" class="outline-4">
+<h4 id="sec-1.6.1">Paper abstract </h4>
+<div class="outline-text-4" id="text-1.6.1">
+
+<p>Mobile/wireless multimedia applications (e.g., video calls and IPTV) have gained great momentum in recent years. An important issue is to monitor/predict overall audiovisual quality, instead of audio-only or video-only quality, non-intrusively for technical or commercial reasons. Previous audiovisual modeling research mainly considered application parameters (e.g., codec and send bit rate). Little attention has been paid to how network parameters, e.g., Packet Error Rate (PER) affect audiovisual quality. The aim of this paper is to explore methods to predict audiovisual quality objectively for video calls in wireless applications. The contributions of the paper are twofold. Firstly, we present subjective test results on how audio and video contribute to overall audiovisual quality and develop models to reflect this relationship. Secondly, we investigated how network parameters (e.g., PER) and application parameters, e.g., video Frame Rate (FR) affect overall audiovisual quality. We developed a regression model to predict audiovisual quality from PER and FR which can be used to monitor/predict audiovisual quality non-intrusively. We also explore the possibility to predict audiovisual quality from full-reference voice and video quality metrics (i.e., PESQ and PSNR) and from combined PESQ/PSNR and network/application parameters. The different predication accuracy obtained from these models (accuracy from 84% to 93%) indicates the complex attributes in audiovisual quality prediction. An extended Evalvid/NS-2 platform is developed to support simulation of video calls over wireless networks.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1.7" class="outline-3">
+<h3 id="sec-1.7">Contact Information </h3>
+<div class="outline-text-3" id="text-1.7">
+
+
+<p>
+Mohammad Goudarzi : <a href="mailto:mohammad.goudarzi@plymouth.ac.uk">mailto:mohammad.goudarzi@plymouth.ac.uk</a>
+</p>
+<p>
+Dr.Lingfen Sun : <a href="mailto:l.sun@plymouth.ac.uk">mailto:l.sun@plymouth.ac.uk</a>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1.8" class="outline-3">
+<h3 id="sec-1.8">Copyright Notice </h3>
+<div class="outline-text-3" id="text-1.8">
+
+<p>Copyright (c) 2010 The University of Plymouth
+All rights reserved.
+</p>
+
+<p>
+______________________________________________________________________________________________________________
+</p>
+</div>
+</div>
+</div>
+<div id="postamble">
+<p class="author"> Author: Mohammad Goudarzi
+<a href="mailto:mohammad.goudarzi@plymouth.ac.uk">&lt;mohammad.goudarzi@plymouth.ac.uk&gt;</a>
+</p>
+<p class="date"> Date: 2011-06-07 14:19:52 </p>
+<p class="creator">HTML generated by org-mode 6.33x in emacs 23</p>
+</div>
+</div>
+</body>
+</html>
